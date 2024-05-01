@@ -7,6 +7,8 @@ const Home = () => {
   console.log("checkvariabe", process.env.checkvariable)
   return (
     <div>
+      <p>ENV: {process.env.checkvariable}</p>
+      <hr />
       <Counter1 />
       <hr />
       <Counter2 />
