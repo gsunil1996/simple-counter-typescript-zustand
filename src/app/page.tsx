@@ -4,6 +4,7 @@ import UsersList from "@/components/UsersList"
 
 
 const Home = () => {
+  console.log("checkvariabe", process.env.checkvariable)
   return (
     <div>
       <Counter1 />
